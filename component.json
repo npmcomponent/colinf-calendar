@@ -9,7 +9,7 @@
     "ui"
   ],
   "dependencies": {
-    "component/range": "*",
+    "colinf/range": "*",
     "component/jquery": "*",
     "component/emitter": "*",
     "component/in-groups-of": "*"
