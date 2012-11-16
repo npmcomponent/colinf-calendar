@@ -14,11 +14,11 @@
 
   * Supports reverse list of years i.e. where `from` > `to` in [showYearSelect(from, to)](#calendarshowyearselectfromto)
   * Constrains calendar to one of the years in `from` through `to`
-  * Uses colinf/range rather than component range
+  * Uses colinf/range rather than component/range
 
 ## Installation
 
-    $ component install component/calendar
+    $ component install colinf/calendar
 
 ## Example
 
