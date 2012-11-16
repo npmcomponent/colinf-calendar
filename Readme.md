@@ -12,7 +12,7 @@
 
   The current differences from component/calendar are as follows:
 
-  * Supports reverse list of years i.e. where `from` > `to` in [showYearSelect(from, to)](#calendarshowyearselectfromto)
+  * Supports reverse list of years i.e. where `from` > `to` in [showYearSelect(from, to)](#showyearselect)
   * Constrains calendar to one of the years in `from` through `to`
   * Uses colinf/range rather than component range
 
@@ -53,7 +53,7 @@ cal.el.appendTo('body');
 
   Add month selection input.
 
-### Calendar#showYearSelect([from], [to])
+### Calendar#showYearSelect([from], [to]) [showyearselect]
 
   Add year selection input, with optional range specified by `from` and `to`,
   which default to the current year -10 / +10.
