@@ -6,6 +6,16 @@
 
   ![javascript calendar component](http://f.cl.ly/items/2u3w1D421W0C370Z3G1U/Screen%20Shot%202012-10-11%20at%2014.32.41.png)
 
+## Differences from component/calendar ##
+
+  This project is a fork from [component/calendar](https://github.com/component/calendar) and unless you need any of the differences listed below, it may be better to use component/calendar as a dependency in your project.
+
+  The current differences from component/calendar are as follows:
+
+  * Supports reverse list of years i.e. where `from` > `to` in [showYearSelect(from, to)](#calendarshowyearselectfromto)
+  * Constrains calendar to one of the years in `from` through `to`
+  * Uses colinf/range rather than component range
+
 ## Installation
 
     $ component install component/calendar
