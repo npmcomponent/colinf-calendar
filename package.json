@@ -1,21 +1,20 @@
 {
-  "name": "calendar-component",
+  "name": "colinf-calendar",
   "description": "Calendar component",
   "version": "0.0.3",
-  "keywords": ["calendar", "date", "ui"],
+  "keywords": [
+    "calendar",
+    "date",
+    "ui"
+  ],
+  "styles": [
+    "lib/calendar.css"
+  ],
   "dependencies": {
-    "jquery-component": "*",
-    "emitter-component": "*",
-    "in-groups-of": "*"
+    "colinf-range": "git://github.com/npmcomponent/colinf-range.git",
+    "component-jquery": "git://github.com/npmcomponent/component-jquery.git",
+    "component-emitter": "git://github.com/npmcomponent/component-emitter.git",
+    "component-in-groups-of": "git://github.com/npmcomponent/component-in-groups-of.git"
   },
-  "component": {
-    "styles": ["lib/calendar.css"],
-    "scripts": {
-      "calendar/index.js": "index.js",
-      "calendar/lib/utils.js": "lib/utils.js",
-      "calendar/lib/template.js": "lib/template.js",
-      "calendar/lib/calendar.js": "lib/calendar.js",
-      "calendar/lib/days.js": "lib/days.js"
-    }
-  }
+  "license": "MIT"
 }
